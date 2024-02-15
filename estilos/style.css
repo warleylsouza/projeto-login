@@ -43,8 +43,8 @@ section#login {
 
 }
 
-section#login > div#imagem{
-    
+section#login > div#imagem {
+
     display: block;
     background: #5f2c82 url(../imagem/montanhas.jpg) no-repeat;
     background-size: cover ;
@@ -52,7 +52,7 @@ section#login > div#imagem{
     height: 200px;
 }
 
-section#login > div#formulario{
+section#login > div#formulario {
     display: block;
     padding: 10px;
 
