@@ -36,11 +36,15 @@ section#login {
     width: 250px;  
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+
+    transform: width .3s, heigth .3s;
+    transition-timing-function: ease;
 
 }
 
 section#login > div#imagem{
+    
     display: block;
     background: #5f2c82 url(../imagem/montanhas.jpg) no-repeat;
     background-size: cover ;
