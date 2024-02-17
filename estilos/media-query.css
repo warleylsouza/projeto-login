@@ -4,6 +4,8 @@ celular: de 600px ate 768px
 tablets: 768px ate 992px
 desktop: 992px ate 1200px
 grandes telas: acima de 1200px */
+
+/* Configuração para Tablets */
 @media screen and (min-width: 768px) and (max-width: 992px) { 
 
 
@@ -12,8 +14,8 @@ grandes telas: acima de 1200px */
     }
 
     section#login{
-
         width: 80vw;
+        height: 280px;
         
     }
 
@@ -33,7 +35,7 @@ grandes telas: acima de 1200px */
     
 }
 
-
+/* Configurações para Desktop */
 @media screen and (min-width:992px) {
     
     body {
@@ -42,6 +44,7 @@ grandes telas: acima de 1200px */
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -56,7 +59,14 @@ grandes telas: acima de 1200px */
         width: 50%;
         
     }
+    div#formulario > h1{
+        font-size: 2em;
 
+    }
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
    
     
 }
